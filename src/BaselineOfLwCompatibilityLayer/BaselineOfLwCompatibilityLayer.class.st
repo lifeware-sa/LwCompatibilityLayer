@@ -17,8 +17,7 @@ BaselineOfLwCompatibilityLayer >> baseline: spec [
 			package: 'Lifeware-CompatibilityLayer-XFilename';
 			package: 'Lifeware-CompatibilityLayer-Transcript';
 			package: 'Lifeware-CompatibilityLayer-PackedString';
-			package: 'Lifeware-CompatibilityLayer-NByteArray';
-			package: 'Lifeware-CompatibilityLayer-PersistentObject'.
+			package: 'Lifeware-CompatibilityLayer-NByteArray'.
 
 		spec
 			group: 'LwTestCase'
@@ -36,7 +35,5 @@ BaselineOfLwCompatibilityLayer >> baseline: spec [
 			group: 'SystemInterface'
 			with: #( 'Lifeware-CompatibilityLayer-SystemInterface' );
 			group: 'PlatformSpecific'
-			with: #( 'Lifeware-CompatibilityLayer-PlatformSpecific' );
-			group: 'PersistentObject'
-			with: #( 'Lifeware-CompatibilityLayer-PersistentObject' ) ]
+			with: #( 'Lifeware-CompatibilityLayer-PlatformSpecific' ) ]
 ]
