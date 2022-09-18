@@ -17,11 +17,14 @@ BaselineOfLwCompatibilityLayer >> baseline: spec [
 			package: 'Lifeware-CompatibilityLayer-XFilename';
 			package: 'Lifeware-CompatibilityLayer-Transcript';
 			package: 'Lifeware-CompatibilityLayer-PackedString';
+			package: 'Lifeware-CompatibilityLayer-Random';
 			package: 'Lifeware-CompatibilityLayer-NByteArray'.
 
 		spec
 			group: 'LwTestCase'
 			with: #( 'Lifeware-CompatibilityLayer-LwTestCase' );
+			group: 'Random'
+			with: #( 'Lifeware-CompatibilityLayer-Random' );
 			group: 'NByteArray'
 			with: #( 'Lifeware-CompatibilityLayer-NByteArray' );
 			group: 'PackedString'
