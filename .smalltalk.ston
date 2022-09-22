@@ -1,0 +1,21 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'LwCompatibilityLayer',
+      #directory : 'src',
+      #platforms : [ #pharo ],
+      #onConflict : #useIncoming,
+      #onUpgrade : #useIncoming
+    }
+  ],
+  #testing : {
+    #coverage : {
+	  #include : {
+        #classes : [ #ByteArrayTest, #IntegerTest ]
+      },
+      #packages : [ 'LwCompatibilityLayer.*' ],
+      #format : #lcov
+    },
+    #defaultTimeout : 180
+  }
+}
