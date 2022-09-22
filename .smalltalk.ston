@@ -9,10 +9,10 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+    #include : {
+      #classes : [ #ByteArrayTest, #IntegerTest ]
+    },
     #coverage : {
-	  #include : {
-        #classes : [ #ByteArrayTest, #IntegerTest ]
-      },
       #packages : [ 'LwCompatibilityLayer.*' ],
       #format : #lcov
     },
