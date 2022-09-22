@@ -13,7 +13,7 @@ SmalltalkCISpec {
       #classes : [ #ByteArrayTest, #IntegerTest ]
     },
     #coverage : {
-      #packages : [ 'LwCompatibilityLayer.*' ],
+      #packages : [ 'Lifeware-CompatibilityLayer.*' ],
       #format : #lcov
     },
     #defaultTimeout : 180
