@@ -16,7 +16,6 @@ BaselineOfLwCompatibilityLayer >> baseline: spec [
 			package: 'Lifeware-CompatibilityLayer-Timestamp';
 			package: 'Lifeware-CompatibilityLayer-XFilename';
 			package: 'Lifeware-CompatibilityLayer-Transcript';
-			package: 'Lifeware-CompatibilityLayer-PackedString';
 			package: 'Lifeware-CompatibilityLayer-Random';
 			package: 'Lifeware-CompatibilityLayer-NByteArray'.
 
@@ -27,8 +26,6 @@ BaselineOfLwCompatibilityLayer >> baseline: spec [
 			with: #( 'Lifeware-CompatibilityLayer-Random' );
 			group: 'NByteArray'
 			with: #( 'Lifeware-CompatibilityLayer-NByteArray' );
-			group: 'PackedString'
-			with: #( 'Lifeware-CompatibilityLayer-PackedString' );
 			group: 'Timestamp'
 			with: #( 'Lifeware-CompatibilityLayer-Timestamp' );
 			group: 'Transcript'
